@@ -2,14 +2,14 @@
 
 const contactData = {
   intro: [
-    "Email is the best way to reach me. I'm happy to talk about research, PhD opportunities, or collaboration."
+    "Email is the best way to reach me. I'm happy to talk about AI safety, AI governance, US–China AI policy, or research collaboration."
   ],
   items: [
     {
       icon: "fa-solid fa-envelope",
       label: "Email",
-      value: "JunruAi2026@u.northwestern.edu",
-      href: "mailto:JunruAi2026@u.northwestern.edu",
+      value: "aijunru225@126.com",
+      href: "mailto:aijunru225@126.com",
       note: "preferred",
       copy: true
     },

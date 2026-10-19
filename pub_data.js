@@ -2,9 +2,31 @@
 // To add a paper later: copy one block, edit it, and (optionally) add
 // links: [{ text: "PDF", url: "pdf/your_file.pdf" }]
 
-const pubIntro = "Selected papers and research projects from my graduate training. Most use interviews and field methods to understand how people make sense of the technologies in their lives.";
+const pubIntro = "Selected policy writing and research projects from my graduate training, spanning AI governance, AI safety, and how people experience the technologies in their lives.";
 
 const pubData = [
+  {
+    type: "Policy Memos",
+    title: "Export Controls on Frontier AI Model Weights: Informational and Decisional Memos",
+    authors: "<strong>Junru Ai</strong>",
+    venue: "Policy simulation, Navigating AI & Data Governance (Prof. Nik Marda), Northwestern University",
+    year: "2026",
+    details: [
+      "Produced an informational memo and a decisional memo on whether and how to control exports of frontier AI model weights, written from the perspective of an intelligence analyst advising decision-makers."
+    ],
+    keywords: ["Export Controls", "Model Weights", "Frontier AI", "Policy Memo"]
+  },
+  {
+    type: "Policy Briefs",
+    title: "AI Talent Retention and AI Model Export Controls: Comparative Policy Briefs",
+    authors: "<strong>Junru Ai</strong>, with Brookings capstone team",
+    venue: "Brookings Institution capstone (with Dr. Nicol Turner Lee); internal research material",
+    year: "2026",
+    details: [
+      "Co-authored two policy briefs within a comparative US/EU/China analysis of AI industrial policy, later presented as an academic poster at the MTePP Graduation Showcase."
+    ],
+    keywords: ["AI Industrial Policy", "US–China", "Talent Policy", "Export Controls"]
+  },
   {
     type: "Manuscript",
     title: "Erotic Conversations with AI as Emotional Coping: An Interview-Based Case Study",
@@ -40,7 +62,7 @@ const pubData = [
       "Co-designed a comparative study of 20 to 25 food-delivery riders using semi-structured interviews, fieldwork, ride-alongs, and app walkthroughs, framed through distributed cognition.",
       "Developed a coding plan distinguishing how workers interpret algorithmic instructions from how they respond to them."
     ],
-    keywords: ["Algorithmic Management", "Platform Labor", "Distributed Cognition", "Cross-National"]
+    keywords: ["Algorithmic Management", "Platform Labor", "China–U.S.", "Cross-National"]
   },
   {
     type: "Course Project",
@@ -52,16 +74,5 @@ const pubData = [
       "Conducted, transcribed, and translated two semi-structured Mandarin interviews; analyzed platform dependence through infrastructural invisibility and context collapse."
     ],
     keywords: ["Platform Dependence", "Interviews", "WeChat"]
-  },
-  {
-    type: "Course Project",
-    title: "How a Self-Checkout System Processes a Grocery Purchase: A Distributed Cognition Field Study",
-    authors: "<strong>Junru Ai</strong>",
-    venue: "Course project, Technology in Context, Northwestern University",
-    year: "2026",
-    details: [
-      "Conducted field observation with photo documentation at a supermarket self-checkout; mapped representational transformations and breakdowns, and proposed interface design improvements."
-    ],
-    keywords: ["Field Observation", "Distributed Cognition", "Interface Design"]
   }
 ];

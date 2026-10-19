@@ -5,7 +5,7 @@ const homeData = {
         interests: "Research Interests",
         education: "Education",
         exp1: "Research Experience",
-        exp2: "Industry Experience in AI Safety and Trust & Safety",
+        exp2: "AI Safety Industry Experience (China)",
         list1: "Presentations and Conferences",
         list2: "Methods and Skills",
         footer: "For more info"
@@ -13,22 +13,22 @@ const homeData = {
     header: {
         name: "Junru (Andrea) Ai",
         name_alt: "艾隽如",
-        title: "M.S. in Technology, People, and Policy",
-        department: "Northwestern University, School of Education and Social Policy",
+        title: "AI Safety & Governance Research · China–West AI Ecosystems · Human–AI Interaction",
+        department: "M.S. in Technology, People, and Policy, Northwestern University",
         bio: [
-            "Welcome! I'm Junru (Andrea) Ai. I recently completed my M.S. in Technology, People, and Policy at Northwestern University (GPA 3.93/4.0), after earning a B.Econ. in Finance from Wuhan University of Technology.",
-            "I study how people, especially adolescents, experience generative AI products such as chatbots and AI companions, and how design and safety practices can better support their wellbeing. My research draws on qualitative and mixed methods: semi-structured interviews, field observation, survey design, and systematic literature review.",
-            "My path into research runs through industry. Before graduate school, I evaluated AI content moderation at StepFun, a large language model company, and worked on content safety for children's smart devices at Genius Technology (imoo). That work showed me how safety decisions made inside real platforms shape what users, and young users in particular, actually encounter. At Northwestern, I was a research assistant in Prof. Yang Qu's Culture, Brain, and Human Development Lab and a Capstone Research Fellow with Dr. Nicol Turner Lee at the Brookings Institution.",
-            "I am preparing PhD applications in Human-Computer Interaction and Information Science. If you'd like to talk about research or collaboration, please feel free to email me."
+            "Welcome! I'm Junru (Andrea) Ai, an AI governance researcher working at the intersection of AI safety, policy, and human–AI interaction. I recently completed my M.S. in Technology, People, and Policy at Northwestern University (GPA 3.93/4.0), after earning a B.Econ. in Finance from Wuhan University of Technology.",
+            "I have worked on both sides of the US–China AI landscape. At StepFun, a Chinese foundation-model developer, I evaluated AI content moderation services and compared safety practices across major Chinese LLM products. At Genius Technology (BBK Electronics group), I worked on content safety for BBK children's learning tablets. I then joined the Brookings Institution as a Capstone Research Fellow with Dr. Nicol Turner Lee, comparing US, EU, and Chinese AI industrial policy, and I continue as a research assistant in two Northwestern labs led by Prof. Yang Qu and Prof. Claudia M. Haase.",
+            "I am interested in how AI safety commitments can become workable and credible across institutional and political borders, and in how safety decisions made inside real platforms shape what users, especially young users, actually encounter. As a native Mandarin speaker, I work directly with Chinese-language primary sources and help connect Chinese industry practice with Western policy debates.",
+            "If you'd like to talk about AI safety, governance, or collaboration, please feel free to email me."
         ]
     },
     interests: [
-        "Human-AI interaction",
-        "Adolescents and generative AI",
-        "AI companions and emotional reliance",
-        "Wellbeing in technology use",
+        "AI governance and international coordination",
+        "US–China AI policy",
+        "AI safety evaluation",
         "Trust & safety and safety-by-design",
-        "Qualitative and mixed-methods user research"
+        "Human–AI interaction and AI companions",
+        "Adolescents and generative AI"
     ],
     education: [
         {
@@ -37,60 +37,58 @@ const homeData = {
             degree: "M.S. in Technology, People, and Policy (STEM-designated), School of Education and Social Policy",
             details: [
                 "GPA: 3.93/4.0",
-                "Relevant coursework: Technology in Context; Technology, Emotion, and Social Relationships; Technology, Psychology, and Education Across Cultures; AI and Data Governance; Data Ethics and Policy; Foundations of Science and Technology Policy; Introduction to Artificial Intelligence; Negotiation and Conflict Management"
+                "Relevant coursework: Navigating AI & Data Governance; Data, Ethics & Policy; Foundations of Tech Policy; Technology, Emotion & Social Relationships; Technology, Psychology & Education Across Cultures",
+                "University Delegate, IASEAI 2026 Conference (International Association for Safe & Ethical AI), Paris, France"
             ]
         },
         {
             period: "Sep 2021 to Jun 2025",
             school: "Wuhan University of Technology",
             degree: "B.Econ. in Finance",
-            details: [
-                "Relevant coursework: Statistics, Python Programming, Game Theory, Principles of Management, Corporate Finance"
-            ]
+            details: []
         }
     ],
     exp1: [
         {
-            org: "Culture, Brain, and Human Development Lab, Northwestern University",
-            role: "Research Assistant",
-            supervisor: "PI: Prof. Yang Qu",
-            period: "Mar 2026 to Aug 2026",
+            org: "The Brookings Institution",
+            role: "Capstone Research Fellow",
+            supervisor: "with Dr. Nicol Turner Lee",
+            period: "Dec 2025 to Jun 2026",
             details: [
-                "Completed fMRI training and supported participant recruitment for an adolescent neuroimaging study.",
-                "Pilot-tested in-scanner attention tasks, evaluating their usability and procedural flow from the participant's perspective before data collection.",
-                "Assisted in developing parallel parent and child surveys for a study of family relationships and adolescent development, focusing on how parents and adolescents perceive each other.",
-                "Served as lead research assistant on a three-person search team for a systematic review of AI and digital technologies in K-12 education; identified, retrieved, and archived 265 articles."
+                "Restructured and authored the talent pillar of a US/EU/China AI industrial policy comparison, drawing on Chinese- and English-language sources on immigration, workforce funding, and retention.",
+                "Co-authored 2 policy briefs on talent-retention gaps and AI model export controls, plus a comparative blog across data, algorithms, and talent, retained by Brookings as internal research material.",
+                "Presented findings at a spring research symposium and as an academic poster at the MTePP graduation showcase, revising the argument in response to Brookings reviewers and faculty feedback."
             ]
         },
         {
-            org: "The Brookings Institution",
-            role: "Capstone Research Fellow",
-            supervisor: "Supervisor: Dr. Nicol Turner Lee",
-            period: "Dec 2025 to Jun 2026",
+            org: "Culture, Brain, and Human Development Lab & Technology and Human Development Lab, Northwestern University",
+            role: "Research Assistant",
+            supervisor: "PIs: Prof. Yang Qu & Prof. Claudia M. Haase",
+            period: "Mar 2026 to Present",
             details: [
-                "Led the talent policy pillar of a comparative study of AI industrial policy in the United States, European Union, and China, analyzing how immigration rules, workforce investment, and retention mechanisms shape national AI competitiveness.",
-                "Co-drafted two policy briefs on AI talent mobility and AI model export controls, later presented as an academic poster.",
-                "Authored a comparative policy blog post, retained by Brookings as internal research material."
+                "Led full-text retrieval of 265 references for a systematic review of AI in K-12 education.",
+                "Authored a scoping review on influencer–fan psychology and a literature review on adolescents and AI products.",
+                "Completed fMRI training and pilot-tested in-scanner tasks for an adolescent neuroimaging study."
             ]
         }
     ],
     exp2: [
         {
-            org: "Genius Technology (imoo, children's smart devices)",
-            role: "Content Product Intern",
-            period: "Jun 2024 to Sep 2024",
+            org: "StepFun (Chinese foundation-model developer)",
+            role: "AI Safety Intern",
+            period: "Dec 2023 to Apr 2024",
             details: [
-                "Analyzed 422 user complaint cases to identify high-frequency content safety risks for child users; authored a remediation report that strengthened risk-handling workflows.",
-                "Collected 1,040 user comments from 230 social media accounts with a Python scraper to assess how families evaluate children's learning devices."
+                "Benchmarked 4 cloud content-moderation vendors across 1M+ test samples in sensitive, high-risk scenarios; computed precision/recall and delivered the vendor-selection recommendation adopted by the team.",
+                "Designed scenario-based safety test suites and an edge-case error-log database; diagnosed false positives on AI-generated content and benchmarked safety approaches of peer Chinese labs to refine the safety-label taxonomy."
             ]
         },
         {
-            org: "StepFun (AI unicorn, large language models)",
-            role: "AI Product Intern",
-            period: "Jan 2024 to Mar 2024",
+            org: "Guangdong Genius Technology (BBK Electronics group)",
+            role: "Content Safety / Product Management Intern",
+            period: "Jun 2024 to Nov 2024",
             details: [
-                "Evaluated AI content moderation services from four cloud vendors (including Volcano Engine and Tencent Cloud) on 1M+ samples across political, sexual, and illegal content; measured false-positive rates and led vendor selection.",
-                "Diagnosed causes of false-positive blocking of user-generated avatars and compared content safety practices across major Chinese LLM products (Kimi, Zhipu, ERNIE Bot, Doubao), recommending refinements to safety labels."
+                "Screened the top 1,000 titles on BBK children's learning tablets via rule-based checks and manual spot review; stood up a recurring QA process with safety specialists to cut child-safety risk.",
+                "Analyzed 422 user complaints using pattern recognition to surface recurring harms and latent risks; delivered corrective reports that strengthened content-safety and incident-response workflows."
             ]
         },
         {
@@ -98,32 +96,23 @@ const homeData = {
             role: "Product Operations Intern",
             period: "May 2025 to Aug 2025",
             details: [
-                "Cleaned and analyzed three years of million-record sales data; produced five channel insight reports presented directly to the department head.",
-                "Built a daily-updated sales dashboard connected to the backend system, automatically distributed to the full department."
-            ]
-        },
-        {
-            org: "MytePro",
-            role: "Project Management Intern",
-            period: "Dec 2024 to Apr 2025",
-            details: [
-                "Integrated 30,000+ real estate project records across contract, payment, and engineering systems into a unified data ledger.",
-                "Co-authored a master data management manual covering 508 projects and resolved 80+ client technical issues."
+                "Built a real-time BI dashboard across 1M+ records for a Tencent Cloud product, saving 15+ hours/week."
             ]
         }
     ],
     list1: [
         "<strong>Ai, J.</strong>, et al. (2026). Poster on AI talent mobility and AI model export controls (Brookings capstone). M.S. in Technology, People, and Policy Graduation Showcase, Northwestern University.",
+        "Spring research symposium presentation on comparative US/EU/China AI industrial policy (Brookings capstone), Northwestern University, 2026.",
         "Attended the International Association for Safe and Ethical AI conference (IASEAI '26) as a Northwestern delegate, Paris, France, February 2026."
     ],
     list2: [
-        "<strong>Research methods:</strong> semi-structured interviewing, qualitative coding and thematic analysis, field observation, survey design, usability pilot testing, scoping and systematic literature review, fMRI training",
-        "<strong>Technical:</strong> Python (data analysis, web scraping), SQL, Tableau, Excel",
+        "<strong>Research:</strong> comparative policy analysis, Chinese/English primary-source research, policy memo writing, AI safety evaluation (precision/recall, red-team test design), scoping and systematic literature review, semi-structured interviewing",
+        "<strong>Technical:</strong> Python, SQL, Tableau, Power BI, Excel (Advanced), Qualtrics, Zotero, prompt engineering",
         "<strong>Languages:</strong> Mandarin (native), English (fluent; IELTS 7.0)"
     ],
     footer: {
-        text: "This page offers a glimpse of my work. My full academic CV is available below, and I'm always happy to hear from you by email.",
-        cvText: "Download Academic CV (PDF)",
-        cvLink: "pdf/Junru_Ai_Academic_CV.pdf"
+        text: "This page offers a glimpse of my work. My full CV is available below, and I'm always happy to hear from you by email.",
+        cvText: "Download CV (PDF)",
+        cvLink: "pdf/Andrea_Ai_CV.pdf"
     }
 };

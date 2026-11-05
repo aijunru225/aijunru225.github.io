@@ -2,7 +2,7 @@
 
 const contactData = {
   intro: [
-    "Email is the best way to reach me. I'm happy to talk about AI safety, AI governance, US–China AI policy, or research collaboration."
+    "Email is the best way to reach me. I'm happy to talk about AI companions, human–AI interaction, youth online safety, trust and safety, or research collaboration."
   ],
   items: [
     {

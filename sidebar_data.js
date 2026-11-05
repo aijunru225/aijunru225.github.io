@@ -1,7 +1,7 @@
 // sidebar_data.js: the left column shown on every page
 const sidebarData = {
     name: "Junru (Andrea) Ai",
-    title: "AI Safety & Governance Research",
+    title: "Human–AI Interaction · AI Safety",
     prev_edu: "M.S. in Technology, People, and Policy, Northwestern University",
     image: "images/profile.jpg",
 

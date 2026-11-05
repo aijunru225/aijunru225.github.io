@@ -8,7 +8,7 @@ const sidebarData = {
     infoList: [
         { icon: "fas fa-map-marker-alt", text: "China" },
         { icon: "fas fa-university", text: "Northwestern University" },
-        { icon: "fas fa-envelope", text: "aijunru225@126.com", link: "mailto:aijunru225@126.com" },
+        { icon: "fas fa-envelope", text: "JunruAi2026@u.northwestern.edu", link: "mailto:JunruAi2026@u.northwestern.edu" },
         { icon: "fas fa-file-alt", text: "CV (PDF)", link: "pdf/Andrea_Ai_CV.pdf" },
         { icon: "fab fa-linkedin", text: "LinkedIn", link: "https://www.linkedin.com/in/andreaai225" }
     ]

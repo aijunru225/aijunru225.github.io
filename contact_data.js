@@ -8,8 +8,8 @@ const contactData = {
     {
       icon: "fa-solid fa-envelope",
       label: "Email",
-      value: "aijunru225@126.com",
-      href: "mailto:aijunru225@126.com",
+      value: "JunruAi2026@u.northwestern.edu",
+      href: "mailto:JunruAi2026@u.northwestern.edu",
       note: "preferred",
       copy: true
     },

@@ -18,7 +18,7 @@ const homeData = {
         bio: [
             "I'm Junru (Andrea) Ai. I study how people get attached to AI systems, how they come to rely on them, and how they let go.",
             "I first saw this from inside product teams. At StepFun, a Chinese foundation-model developer, I read through user conversations on an AI companion app to find where safety rules broke down, and benchmarked four content-moderation vendors on a million test samples. At Genius Technology (BBK Electronics group), I worked on content safety for learning tablets widely used by Chinese students. The logs showed me what people say to AI in their most private moments. They didn't tell me why.",
-            "At Northwestern, where I completed an M.S. in Technology, People, and Policy (GPA 3.93/4.0), I went looking for the why. I interviewed AI companion users about intimate conversations with AI and kept hearing the same cycle: loneliness, brief relief, then shame. I also work as a research assistant in Prof. Yang Qu's labs on adolescents and technology, and spent six months on comparative AI industrial policy at the Brookings Institution with Dr. Nicol Turner Lee.",
+            "At Northwestern, where I completed an M.S. in Technology, People, and Policy (GPA 3.93/4.0), I went looking for the why. I interviewed AI companion users about intimate conversations with AI and kept hearing the same cycle: loneliness, brief relief, then shame. I also worked as a research assistant in Prof. Yang Qu's labs on adolescents and technology, and spent six months on comparative AI industrial policy at the Brookings Institution with Dr. Nicol Turner Lee.",
             "The question I care most about now is one that safety evaluations rarely ask: what a healthy ending looks like for emotional AI. Content filters catch harmful outputs, but dependence builds through relational patterns no single message reveals. I want to study, design, and evaluate for that. I'm currently applying to PhD programs in HCI and human–AI interaction.",
             "If you work on related questions, I'd be glad to hear from you by email."
         ]
@@ -56,11 +56,11 @@ const homeData = {
             org: "Culture, Brain, and Human Development Lab & Technology and Human Development Lab, Northwestern University",
             role: "Research Assistant",
             supervisor: "PI: Prof. Yang Qu",
-            period: "Mar 2026 to Present",
+            period: "Mar 2026 to Aug 2026",
             details: [
                 "Authored a literature review on how AI-driven products and short-form video influencers shape adolescents' online experiences and well-being, informing the labs' research on adolescent digital well-being.",
                 "Led full-text retrieval for a three-RA systematic review of AI and technology in K-12 education, securing 251 of 265 records (95%); audited DOI metadata and built a Python workflow to deliver an analysis-ready corpus.",
-                "Pilot-tested in-scanner attention paradigms for an adolescent fMRI study after MRI safety training, flagging protocol issues before data collection.",
+                "Pilot-tested in-scanner attention paradigms for an adolescent fMRI study after MRI safety training, evaluating task usability and session workflow to flag protocol issues before data collection.",
                 "Contributed to parallel parent- and child-report survey instruments on family relationships and adolescent development."
             ]
         },
@@ -70,19 +70,19 @@ const homeData = {
             supervisor: "with Dr. Nicol Turner Lee",
             period: "Dec 2025 to Jun 2026",
             details: [
-                "Restructured and authored the talent pillar of a US/EU/China comparison of AI industrial policy, analyzing immigration, workforce, and retention policy through Chinese- and English-language sources.",
-                "Co-authored two policy briefs (AI talent retention; AI model export controls) and a blog post, Beyond the Chip Race, retained by Brookings as internal research; presented at a spring symposium and the MTePP Showcase."
+                "Restructured and authored the talent pillar of a U.S.–EU–China comparison of AI industrial policy, analyzing immigration, workforce, and retention policy through Chinese- and English-language sources.",
+                "Co-authored two policy briefs (AI talent retention; AI model export controls) and a blog post, Beyond the Chip Race, retained as internal research; presented at a spring symposium and the MTePP Showcase."
             ]
         }
     ],
     exp2: [
         {
             org: "StepFun (Chinese foundation-model developer)",
-            role: "AI Product Intern, AI companion app safety",
+            role: "AI Product Intern",
             period: "Jan 2024 to Mar 2024",
             details: [
-                "Analyzed sexually explicit user–AI chats from an AI companion app to identify filter-evasion patterns and classification ambiguities, helping refine a 15-category, three-tier sexual-content taxonomy and its prohibited-term lexicon.",
-                "Benchmarked four content-moderation vendors on 1M multimodal test samples (text, images, and AI-generated avatars; about 30% sexual content), measuring correct-block and false-block rates; the team adopted my recommendation.",
+                "Analyzed sexually explicit user–AI chats to identify evasion patterns and classification ambiguities, helping refine a 15-category, three-tier sexual-content taxonomy and its prohibited-term lexicon.",
+                "Benchmarked four content-moderation vendors on 1M multimodal test samples (text, images, and AI-generated avatars; about 30% sexual content), measuring true-positive and false-positive rates; the team adopted my recommendation.",
                 "Built scenario-based safety evaluation suites and an edge-case error-log database; diagnosed false positives on AI-generated avatars and benchmarked safety practices across Chinese LLM products."
             ]
         },
@@ -96,19 +96,21 @@ const homeData = {
             ]
         },
         {
-            org: "Tencent",
-            role: "Product Data Analyst Intern",
-            period: "May 2025 to Aug 2025",
-            details: [
-                "Built automated Python and SQL pipelines integrating 1M+ order and payment records, cutting manual reporting by 15+ hours a week; analyzed user behavior and conversion funnels in Power BI and Tableau."
-            ]
-        },
-        {
             org: "MytePro",
             role: "Data Governance Intern",
             period: "Dec 2024 to Apr 2025",
             details: [
-                "Wrote Python cleaning and validation workflows for 30,000+ real estate project records and ran exploratory statistical analysis in R and SPSS."
+                "Developed Python-based data cleaning and validation workflows to process 30,000+ real estate project records, performing data standardization, duplicate detection, and consistency checks to support structured data integration.",
+                "Applied R and SPSS for exploratory statistical analysis of project-level data, using descriptive statistics and comparative analysis to investigate variation across project categories and support data-driven reporting."
+            ]
+        },
+        {
+            org: "Tencent",
+            role: "Product Data Analyst Intern",
+            period: "May 2025 to Aug 2025",
+            details: [
+                "Engineered automated data pipelines integrating 1M+ order and payment records using Python and SQL, with multi-table integration, cleaning, deduplication, and scheduled updates; reduced manual reporting by 15+ hours weekly.",
+                "Built data-driven analytics interfaces in Power BI and Tableau to examine user behavior and conversion funnels, enabling systematic monitoring of product engagement and operational performance."
             ]
         }
     ],
@@ -118,9 +120,9 @@ const homeData = {
         "Attended the International Association for Safe and Ethical AI conference (IASEAI '26) as a Northwestern delegate, Paris, France, February 2026."
     ],
     list2: [
-        "<strong>Research methods:</strong> semi-structured interviewing, qualitative coding and thematic analysis, field observation, survey design, usability pilot testing, scoping and systematic literature review, AI safety evaluation design, fMRI safety training",
-        "<strong>Tools:</strong> Python, R, SQL, SPSS, NVivo, Qualtrics, Figma, Tableau, Power BI, Zotero",
-        "<strong>Languages:</strong> Mandarin (native), English (advanced; IELTS 7.0)"
+        "<strong>Research methods:</strong> semi-structured interviewing, qualitative coding and thematic analysis, field observation, survey design, usability pilot testing, scoping and systematic literature review, fMRI safety training",
+        "<strong>Tools:</strong> Python, R, NVivo, Figma, Qualtrics, SQL, SPSS, Tableau, Power BI, Otter.ai, Zotero",
+        "<strong>Languages:</strong> Mandarin (native), English (advanced)"
     ],
     footer: {
         text: "This page offers a glimpse of my work. My full CV is available below, and I'm always happy to hear from you by email.",

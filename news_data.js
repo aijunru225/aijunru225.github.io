@@ -13,5 +13,5 @@ const newsData = [
   { date: "2025-05", text: "Joined Tencent as a product data analyst intern." },
   { date: "2024-12", text: "Joined MytePro as a data governance intern." },
   { date: "2024-06", text: "Joined Genius Technology (BBK Electronics group) as a content safety intern, working on BBK children's learning tablets." },
-  { date: "2024-01", text: "Joined StepFun, a Chinese foundation-model developer, as an AI product intern working on safety for its AI companion app." }
+  { date: "2024-01", text: "Joined StepFun, a Chinese foundation-model developer, as an AI product intern." }
 ];
